@@ -1,0 +1,67 @@
+h1, h2, h3,h4, h5 {
+  font-family: "Poppins";
+  color: white;
+}
+
+body {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+#top {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/hero-dunk-1.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+/* Hero Headings */
+
+#top h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  margin: 20px 7%;
+}
+
+#top h3 {
+    margin: 20px 7%;
+}
+
+.hero-area {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#top .btn-contact-us {
+  /* font-family: "Poppins", sans-serif; */
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+	background-color: rgba(255,255,255,0.4);
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+
+#top .btn-contact-us:hover {
+  background: orange;
+  border: 2px solid orange;
+  color: white;
+}

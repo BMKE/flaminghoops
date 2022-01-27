@@ -1,0 +1,81 @@
+
+html, body {
+  height: 100%;
+  font-family: "Poppins";
+
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10%;
+
+}
+
+.hero-container {
+
+    padding: 0;
+    /* width: 100%; */
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url("../images/hero-dunk-1.jpg");
+    /* rl(https://media.hero-magazine.com/wp-content/uploads/2021/08/24140454/MICHAEL-JORDAN-BILL-SMITH-e1630319726912.jpg) */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 4rem;
+  }
+  # hero h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.hero-text {
+    align-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-custom {
+    font-size: 1.2rem;
+    /*background-color:#000;
+    opacity: 0.1;*/
+}
+
+.btn-contact-us {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-contact-us:hover {
+  background: orange;
+  border: 2px solid orange;
+  color: white;
+}
