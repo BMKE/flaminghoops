@@ -36,7 +36,7 @@ html, body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../images/hero-dunk-1.jpg");
   /* rl(https://media.hero-magazine.com/wp-content/uploads/2021/08/24140454/MICHAEL-JORDAN-BILL-SMITH-e1630319726912.jpg) */
   background-repeat: no-repeat;
-  background-position: center 56px;
+  background-position: center 54px;
   background-size: cover;
   /* background-attachment: fixed; */
   position: relative;
