@@ -1,0 +1,157 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#hero h1 {
+  color: white;
+  font-size: 5rem;
+  color: orange;
+  font-weight: bold;
+  margin-bottom: 7%;
+  line-height: 1.3;
+}
+
+#hero h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10%;
+  line-height: 1.3;
+}
+
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 4rem;  }
+
+  #hero h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.hero-container {
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../images/hero-dunk-1.jpg");
+  /* rl(https://media.hero-magazine.com/wp-content/uploads/2021/08/24140454/MICHAEL-JORDAN-BILL-SMITH-e1630319726912.jpg) */
+  background-repeat: no-repeat;
+  background-position: center 54px;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: relative;
+  text-align: center;
+}
+
+.hero-text {
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-custom {
+  z-index: 1;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  /*background-color:#000;
+    opacity: 0.1;*/
+}
+
+.btn-contact-us {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);;
+
+}
+
+.btn-contact-us:hover {
+  background: orange;
+  border: 2px solid orange;
+  color: white;
+}
+
+/* Pricing Section
+modified https://startbootstrap.com/snippets/pricing-table */
+#pricing {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+.pricing-container {
+  padding: 20px 50px;
+}
+
+#pricing h2 {
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#pricing h3 {
+  margin-bottom: 5%;
+}
+
+.card-img-top {
+  width: 60px;
+  align-self: center;
+  margin-top: 5%;
+}
+
+.card {
+  border-color: orange;
+  padding: 10px;
+}
+
+/* Testimonial Section */
+#testimonial {
+  text-align: center;
+  background-color: gray;
+
+}
+
+#testimonial h2 {
+  color: black;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+#testimonial h3 {
+  color: black;
+  margin-bottom: 5%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px 0;
+}
+
+.carousel-item {
+  background-color: #D3D3D3;
+  height: 400px;
+  padding: 7% 10%;
+}
+
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
